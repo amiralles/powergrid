@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="B257A88A-DC78-4EAA-BDDF-3E199E7D0349" ModuleId="PowerGrid.Component" />
+  <Module PersistentId="EE9D14E1-8905-4E67-930F-98720D442746" ModuleId="PowerGrid.UnitTest" />
+  <Module PersistentId="37516796-A4F3-4EE6-B883-50AE147768B6" ModuleId="PowerGrid.DemoApp" />
+</Modules>

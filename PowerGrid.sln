@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGrid.DemoApp", "PowerGrid.DemoApp\PowerGrid.DemoApp.csproj", "{37516796-A4F3-4EE6-B883-50AE147768B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGrid.Component", "PowerGrid.Component\PowerGrid.Component.csproj", "{B257A88A-DC78-4EAA-BDDF-3E199E7D0349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGrid.UnitTest", "PowerGrid.UnitTest\PowerGrid.UnitTest.csproj", "{EE9D14E1-8905-4E67-930F-98720D442746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37516796-A4F3-4EE6-B883-50AE147768B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37516796-A4F3-4EE6-B883-50AE147768B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37516796-A4F3-4EE6-B883-50AE147768B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37516796-A4F3-4EE6-B883-50AE147768B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B257A88A-DC78-4EAA-BDDF-3E199E7D0349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B257A88A-DC78-4EAA-BDDF-3E199E7D0349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B257A88A-DC78-4EAA-BDDF-3E199E7D0349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B257A88A-DC78-4EAA-BDDF-3E199E7D0349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9D14E1-8905-4E67-930F-98720D442746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9D14E1-8905-4E67-930F-98720D442746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9D14E1-8905-4E67-930F-98720D442746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9D14E1-8905-4E67-930F-98720D442746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\bin\Debug\PowerGrid.Component.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\bin\Debug\PowerGrid.Component.pdb
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.FrmGridContainer.resources
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.Properties.Resources.resources
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.csproj.GenerateResource.Cache
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.pdb

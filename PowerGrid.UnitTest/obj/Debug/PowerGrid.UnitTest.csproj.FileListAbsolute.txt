@@ -1,0 +1,9 @@
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\PowerGrid.UnitTest.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\PowerGrid.UnitTest.pdb
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\nunit.framework.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\PowerGrid.Component.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\PowerGrid.Component.pdb
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\bin\Debug\nunit.framework.xml
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\obj\Debug\PowerGrid.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\obj\Debug\PowerGrid.UnitTest.dll
+C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.UnitTest\obj\Debug\PowerGrid.UnitTest.pdb
