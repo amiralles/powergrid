@@ -5,3 +5,4 @@ C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.C
 C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.csproj.GenerateResource.Cache
 C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.dll
 C:\Users\AMIRALLES\Dev\posts\PowerGrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.pdb
+C:\Users\AMIRALLES\Dev\posts\powergrid\PowerGrid.Component\obj\Debug\PowerGrid.Component.csprojResolveAssemblyReference.cache

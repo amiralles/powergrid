@@ -87,6 +87,8 @@
             var condFormat = new ConditionalFormat { Condition = condition, Format = f };
             if (_conditionalFormats.Contains(condFormat))
                 _conditionalFormats.Remove(condFormat);
+
+            _conditionalFormats.Add(condFormat);
         }
 
         protected override bool DoubleBuffered {

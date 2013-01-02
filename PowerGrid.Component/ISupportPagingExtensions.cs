@@ -18,25 +18,31 @@
             grid.SetDataSource(First, source.Where(criteria).AsQueryable());
         }
         
-        public static void Configure<T>(this ISupportPaging grid, IQueryable<T> query, Func<int> totalRowCount, int pageSize = 100) {
+        public static void Configure<T>(this ISupportPaging grid, 
+            IQueryable<T> query, 
+            Func<int> totalRowCount, 
+            int pageSize = 100) {
             ValidateInput(grid, query, totalRowCount, pageSize);
             
             grid.PageSize = pageSize;
+
             grid.OnGotoFirst = () => grid.SetDataSource(First, query);
+            
             grid.OnGotoPrev = () => grid.SetDataSource(Prev, query);
             grid.OnGotoNext = () => grid.SetDataSource(Next, query);
             grid.OnGotoLast = () => grid.SetDataSource(Last, query);
-
             
-            if (grid.TotalPages == null) {                
-                var total = totalRowCount();//local copy to avoid possible multiple enumerations.
+            if (grid.TotalPages == null) {
+                //local copy to avoid possible multiple enumerations.
+                var total = totalRowCount();
+                //
                 grid.TotalPages = () => CalculatePages(grid, total);
             }
 
             //Goes to the first page.
             grid.SetDataSource(First, query);
-
-            grid.CleanUp = () => PagingCache.Remove(grid);//<= to avoid memory  leaks.
+            grid.CleanUp = () => 
+                PagingCache.Remove(grid);//<= to avoid memory  leaks.
 
             if (grid.EndConfigure != null)
                 grid.EndConfigure();
@@ -77,7 +83,8 @@
         }
 
         //paging strategies.
-        static IEnumerable<T> First<T>(this ISupportPaging grid, IQueryable<T> dataSource) {
+        static IEnumerable<T> First<T>(this ISupportPaging grid, 
+            IQueryable<T> dataSource) {
             grid.CurrentPage = 0;
             return grid.GetPage(dataSource);
         }
@@ -107,7 +114,8 @@
             return grid.GetPage(dataSource);
         }
 
-        static IEnumerable<T> GetPage<T>(this ISupportPaging grid, IQueryable<T> dataSource) {
+        static IEnumerable<T> GetPage<T>(this ISupportPaging grid, 
+            IQueryable<T> dataSource) {
             return PagingCache.CacheAndReturn(grid, dataSource);
         }
 
@@ -168,15 +176,18 @@
                 }
             }
 
-            public static IEnumerable<T> CacheAndReturn<T>(ISupportPaging grid, IQueryable<T> dataSource) {
+            public static IEnumerable<T> CacheAndReturn<T>(ISupportPaging grid, 
+                IQueryable<T> dataSource) {
+
                 var result = GetCached<T>(grid);
                 if (result == null)
                     Cache(grid,
+                        //paging in action
                           (from p in dataSource select p)
                               .Skip( /*start page*/grid.CurrentPage * grid.PageSize)
                               .Take(grid.PageSize)
-                              .ToList()); //recien en este punto vamos contra la base.
-
+                              .ToList()); //only at this point we hit the database
+                        //***********************************************************
                 return GetCached<T>(grid);
             }
 

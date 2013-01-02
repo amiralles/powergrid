@@ -14,15 +14,17 @@ namespace PowerGrid.DemoApp {
             frmGrid.MdiParent = this;
 
             InitializeComponent(); 
-            WindowState = FormWindowState.Maximized;           
-                        
+            WindowState = FormWindowState.Maximized;
+
+            frmGrid.RegisterConditionalFormat();
+
             frmGrid.Configure( 
                 query: GetData(),
                 //Please don't do 
                 //totalRowCount: () => GetData().ToList().Count ;)
                 totalRowCount: () => 50000,
                 pageSize: 1000);
-
+            
             frmGrid.Show();            
         }
 
