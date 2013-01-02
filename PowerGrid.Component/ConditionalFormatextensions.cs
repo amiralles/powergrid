@@ -7,7 +7,7 @@ namespace PowerGrid.Component {
 
     public static class ConditionalFormatextensions {
         private static readonly List<string> _operators = new List<string> {
-            "+","-","*","/",">","<","==","!=",">=","<=","&&", "||",
+            "+","-","*","/",">","<","==","!=",">=","<=","&&", "||","%"
         };
 
         public static string ToCSharp(this string target, Dictionary<string, object> args = null) {
@@ -69,7 +69,12 @@ namespace PowerGrid.Component {
                     continue;
                 }
 
-                if (tokens[i].StartsWith("\""))/*string literal*/ {
+                if (IsMod(tokens[i]))/*Special case*/ {
+                    result.Append("%");
+                    continue;
+                }
+
+                if (tokens[i].StartsWith("\"")) /*string literal*/ {
                     result.AppendFormat(tokens[i]);
                     continue;
                 }
@@ -81,6 +86,10 @@ namespace PowerGrid.Component {
             return result.ToString();
         }
 
+
+        private static bool IsMod(string s) {
+            return s.ToUpper().Trim() == "MOD";
+        }
         private static bool IsOperator(string token) {
             return _operators.Any(o => o == token);
         }

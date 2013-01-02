@@ -1,39 +1,18 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="37516796-A4F3-4EE6-B883-50AE147768B6/f:FrmMain.Designer.cs" caret="1340" fromTop="14" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatEngine.cs" caret="1994" fromTop="43" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:DataGridViewRowExtensions.cs" caret="192" fromTop="6" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ScriptEngine.cs" caret="154" fromTop="4" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:BuiltinFormats.cs" caret="1445" fromTop="38" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:StringExtensions.cs" caret="227" fromTop="3" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatextensions.cs" caret="4089" fromTop="30" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormat.cs" caret="0" fromTop="0" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:GenObj.cs" caret="153" fromTop="6" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:PropertyComparer.cs" caret="377" fromTop="10" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:SortableBindingList.cs" caret="50" fromTop="1" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ISupportPaging.cs" caret="215" fromTop="6" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:Format.cs" caret="0" fromTop="0" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.Designer.cs" caret="1761" fromTop="23" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ISupportPagingExtensions.cs" caret="257" fromTop="8" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:PowerGridControl.cs" caret="2521" fromTop="63" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.cs" caret="938" fromTop="15" />
-    <File id="37516796-A4F3-4EE6-B883-50AE147768B6/f:FrmMain.cs" caret="608" fromTop="10" />
+    <File id="EE9D14E1-8905-4E67-930F-98720D442746/f:PagingFixture.cs" caret="0" fromTop="0" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.Designer.cs" caret="8001" fromTop="15" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:Format.cs" caret="207" fromTop="7" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:DataGridViewRowExtensions.cs" caret="632" fromTop="15" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:PowerGridControl.cs" caret="550" fromTop="13" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatEngine.cs" caret="1579" fromTop="38" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatextensions.cs" caret="3250" fromTop="21" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.cs" caret="1777" fromTop="13" />
   </RecentFiles>
   <RecentEdits>
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ISupportPaging.cs" caret="245" fromTop="6" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:SortableBindingList.cs" caret="2744" fromTop="7" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:PropertyComparer.cs" caret="389" fromTop="10" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:GenObj.cs" caret="30919" fromTop="23" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:DataGridViewRowExtensions.cs" caret="192" fromTop="6" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ScriptEngine.cs" caret="135" fromTop="4" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatEngine.cs" caret="1647" fromTop="9" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:StringExtensions.cs" caret="209" fromTop="3" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:BuiltinFormats.cs" caret="1433" fromTop="25" />
-    <File id="37516796-A4F3-4EE6-B883-50AE147768B6/f:FrmMain.Designer.cs" caret="1340" fromTop="14" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.Designer.cs" caret="1059" fromTop="17" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:PowerGridControl.cs" caret="1065" fromTop="15" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.cs" caret="943" fromTop="15" />
-    <File id="37516796-A4F3-4EE6-B883-50AE147768B6/f:FrmMain.cs" caret="639" fromTop="14" />
-    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ISupportPagingExtensions.cs" caret="7071" fromTop="18" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatEngine.cs" caret="555" fromTop="17" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.Designer.cs" caret="8001" fromTop="15" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:ConditionalFormatextensions.cs" caret="377" fromTop="9" />
+    <File id="B257A88A-DC78-4EAA-BDDF-3E199E7D0349/f:FrmGridContainer.cs" caret="1885" fromTop="13" />
   </RecentEdits>
 </RecentFiles>

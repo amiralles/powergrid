@@ -1,14 +1,14 @@
-﻿using System;
-using System.Linq;
-using System.Windows.Forms;
-
-namespace PowerGrid.Component {
+﻿namespace PowerGrid.Component {
+    using System;
+    using System.Linq;
+    using System.Windows.Forms;
     using System.Drawing;
 
     public partial class FrmGridContainer : Form {
-        
+        private readonly ConditionalFormatEngine _formatEngine;    
         public FrmGridContainer() {            
             InitializeComponent();
+            _formatEngine = new ConditionalFormatEngine();
 
             lblShowing.Enabled = false;
 
@@ -40,14 +40,23 @@ namespace PowerGrid.Component {
 
         public void RegisterConditionalFormat() {
 
+            ////The way to go for buil-in formats (or programmer defined formats)
+            //grid.AddOrUpdateConditionalFormat(
+            //    row => grid.Rows.IndexOf(row) % 2 == 0,                
+            //    new Format {
+            //        BackgroundColor = Color.Yellow,
+            //        Name = "Yellow Highlight"
+            //    });
 
+
+            //This should be used for end users defined formats
             grid.AddOrUpdateConditionalFormat(
-
-                row => grid.Rows.IndexOf(row) % 2 == 0,
-                
+                _formatEngine.CreateFunc(
+                "id MOD 2 = 0"//User input
+                ), 
                 new Format {
-                    BackgroundColor = Color.Yellow,
-                    Name = "Yellow Highlight"
+                    BackgroundColor = Color.YellowGreen,
+                    Name = "Green Highlight"
                 });
         }
     }

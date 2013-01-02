@@ -4,6 +4,8 @@ namespace PowerGrid.Component {
     using System.Linq;
     using System.Reflection;
     using System.Windows.Forms;
+    using Roslyn.Scripting;
+    using Roslyn.Scripting.CSharp;
 
     public class ConditionalFormatEngine {
 

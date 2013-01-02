@@ -1,9 +1,10 @@
 ﻿
-namespace PowerGrid.DemoApp {
-    using Component;
+
+namespace PowerGrid.DemoApp {    
     using System.Collections.Generic;
     using System.Linq;
     using System.Windows.Forms;
+    using Component;
 
     public partial class FrmMain : Form {
         private readonly FrmGridContainer frmGrid;
